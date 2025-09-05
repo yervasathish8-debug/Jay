@@ -1,0 +1,16 @@
+flask
+flask-cors
+requests
+pyperclip
+sqlite3-binary
+Pillow
+numpy
+easyocr
+speechrecognition
+pyautogui
+keyboard
+psutil
+google-generativeai
+plyer
+pystray
+tkinterdnd2
