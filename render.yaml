@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: askify-server
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: python askify_server.py
-    plan: free
-    autoDeploy: true
