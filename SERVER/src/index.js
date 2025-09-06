@@ -26,4 +26,7 @@ app.use("/api/text-to-speech", ttsRoute);
 app.get("/health", (_, res) => res.json({ ok: true }));
 
 const PORT = process.env.PORT || 3000;
+app.get("/ping", (req, res) => {
+  res.json({ message: "pong from server" });
+});
 app.listen(PORT, () => console.log(`✅ Server running on ${PORT}`));
